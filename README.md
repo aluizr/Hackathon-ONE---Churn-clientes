@@ -62,6 +62,11 @@ Os modelos de Machine Learning foram implementados utilizando **scikit-learn**, 
 
 O **Random Forest** foi selecionado como modelo final por apresentar o melhor equilíbrio entre **accuracy**, **precision**, **recall** e **F1-score**, métricas críticas em cenários de churn, onde a redução de falsos negativos é essencial.
 
+### ⚠️ Limitações do Estudo
+- Dataset sintético
+- Ausência de histórico temporal
+- Variáveis comportamentais agregadas
+
 ---
 
 ## 🛠️ Stack Tecnológico
