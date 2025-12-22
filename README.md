@@ -1,10 +1,8 @@
-![Spotify](https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg)
-
-# **Churn Insight**
-### Previsão de Cancelamento de Clientes  
-**Hackathon ONE II | Data Science & Machine Learning**
-
----
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" width="250">
+</p>
+<h1 align="center">Projeto ChurnInsight – Spotify Dataset</h1>
+<h2 font color=gree, align="center">🌟 Hackathon ONE II </h2>
 
 ## 📌 Visão Geral
 
@@ -62,11 +60,6 @@ Os modelos de Machine Learning foram implementados utilizando **scikit-learn**, 
 
 O **Random Forest** foi selecionado como modelo final por apresentar o melhor equilíbrio entre **accuracy**, **precision**, **recall** e **F1-score**, métricas críticas em cenários de churn, onde a redução de falsos negativos é essencial.
 
-### ⚠️ Limitações do Estudo
-- Dataset sintético
-- Ausência de histórico temporal
-- Variáveis comportamentais agregadas
-
 ---
 
 ## 🛠️ Stack Tecnológico
@@ -118,6 +111,13 @@ O **Random Forest** foi selecionado como modelo final por apresentar o melhor eq
 
 ---
 
+##  ⚠️ Limitações do Estudo
+- Dataset sintético
+- Ausência de histórico temporal
+- Variáveis comportamentais agregadas
+
+---
+
 ## 📦 Próximos Passos
 
 - Integração completa com API REST  
@@ -127,18 +127,79 @@ O **Random Forest** foi selecionado como modelo final por apresentar o melhor eq
 
 ---
 
+## 👥 Equipe do Projeto – Hackathon ONE II
+
+### **Time Bank-End**
+- Ezandro Bueno  &nbsp;<a href="https://github.com/ezbueno">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="18"/>
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/ezandro-bueno-776aab192/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="18"/>
+  </a>
+
+- Jorge Filipi Dias  &nbsp;<a href="https://github.com/JorgeFilipi">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="18"/>
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/jfdias/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="18"/>
+  </a>
+
+- Wanderson Souza  &nbsp;<a href="https://github.com/wandersonjafe">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="18"/>
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/wandersonjafe/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="18"/>
+  </a>
+
+- Wendell Dorta  &nbsp;<a href="https://github.com/Wendell-Dorta">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="18"/>
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/wendell-dorta/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="18"/>
+  </a>
+
+### **TIme Data Science**
+- André Ribeiro  &nbsp;<a href="https://github.com/aluizr">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="18"/>
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/andreluizr/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="18"/>
+  </a>
+
+- Kelly Muehlmann  &nbsp;<a href="https://github.com/KellyMuehlmann">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="18"/>
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/kelly-muehlmann-43b9962b3/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="18"/>
+  </a>
+
+- Luiz Alves  &nbsp;<a href="https://github.com/marianafernandes2204">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="18"/>
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/lfall/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="18"/>
+  </a>
+  
+- Mariana Fernandes  &nbsp;<a href="https://github.com/marianafernandes2204">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="18"/>
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/mariana-fernandes-0a93a71b5/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="18"/>
+  </a>
+
+---
+
 ## 🔄 Status do Projeto
 
 🚧 **MVP funcional em desenvolvimento**, evoluído durante o Hackathon ONE II.
 
 ---
 
-## 👥 Equipe do Projeto – Hackathon ONE II
-
-- https://github.com/aluizr  
-- https://github.com/ezbueno  
-- https://github.com/JorgeFilipi  
-- https://github.com/KellyMuehlmann  
-- https://github.com/wandersonjafe  
-- https://github.com/Wendell-Dorta  
-- https://github.com/marianafernandes2204  
