@@ -10,7 +10,7 @@ export function ClientExplainability({ client }) {
     'gender': 'Gênero', 'gender_Male': 'Gênero Masculino', 'gender_Female': 'Gênero Feminino',
     'age': 'Idade', 'Age': 'Idade', 'country': 'País', 'country_FR': 'País França',
     'country_IN': 'País Índia', 'subscription_type': 'Tipo de Assinatura',
-    'subscription_type_Student': 'Assinatura Estudante', 'listening_time': 'Tempo de Escuta',
+    'subscription_type_Student': 'Assinatura Estudante', 'listening_time': 'Tempo de Esculta',
     'songs_played_per_day': 'Músicas por Dia', 'skip_rate': 'Taxa de Pulagem',
     'device_type': 'Tipo de Dispositivo', 'ads_listened_per_week': 'Anúncios por Semana',
     'offline_listening': 'Uso Offline', 'is_churned': 'Cancelamento (Churn)',

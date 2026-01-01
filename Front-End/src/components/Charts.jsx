@@ -28,7 +28,7 @@ const traducaoFeatures = {
   "device_type": "Dispositivo",
   "ad_intensity": "Intensidade de Ads",
   "frustration_index": "Índice de Frustração",
-  "listening_time": "Tempo de Escuta",
+  "listening_time": "Tempo de Esculta",
   "songs_played_per_day": "Músicas p/ Dia",
   "skip_rate": "Taxa de Pulos",
   "subscription_type": "Plano",
