@@ -12,7 +12,7 @@ export default function Dashboard() {
   const [selectedRiskFactor, setSelectedRiskFactor] = useState("")
 
   // Engine de Decisão com sua tradução e ações oficiais
-  const engineDados = {
+const engineDados = {
     "Gênero": { nome: "Gênero", acao: "Ajustar campanhas de marketing para segmentação de gênero específica." },
     "Gênero Masculino": { nome: "Gênero Masculino", acao: "Ajustar campanhas de marketing para segmentação de gênero masculino." },
     "Gênero Feminino": { nome: "Gênero Feminino", acao: "Ajustar campanhas de marketing para segmentação de gênero feminino." },
@@ -22,7 +22,7 @@ export default function Dashboard() {
     "País Índia": { nome: "País Índia", acao: "Localizar conteúdo e ajustar preços conforme a moeda e região indiana." },
     "Tipo de Assinatura": { nome: "Tipo de Assinatura", acao: "Sugerir upgrade para planos com mais benefícios." },
     "Assinatura Estudante": { nome: "Assinatura Estudante", acao: "Apresentar planos exclusivos para estudantes e após formar, oferecer descontos no plano premium ou plano pré-pago" },
-    "Tempo de Esculta": { nome: "Tempo de Escuta", acao: "Enviar recomendações personalizadas para aumentar o engajamento." },
+    "Tempo de Escuta": { nome: "Tempo de Escuta", acao: "Enviar recomendações personalizadas para aumentar o engajamento." },
     "Músicas por Dia": { nome: "Músicas por Dia", acao: "Notificações push com novas playlists baseadas no comportamento diário." },
     "Taxa de Pulagem": { nome: "Taxa de Pulagem", acao: "Recalibrar algoritmo de recomendação para reduzir pulos." },
     "Tipo de Dispositivo": { nome: "Tipo de Dispositivo", acao: "Otimizar interface e bugs específicos para o hardware do usuário." },
@@ -37,7 +37,8 @@ export default function Dashboard() {
 
   const mapaTraducao = {
     "gender": "Gênero", "age": "Idade", "Age": "Idade", "country": "País",
-    "subscription_type": "Tipo de Assinatura", "listening_time": "Tempo de Esculta",
+    "subscription_type": "Tipo de Assinatura", 
+    "listening_time": "Tempo de Escuta", 
     "songs_played_per_day": "Músicas por Dia", "skip_rate": "Taxa de Pulagem",
     "device_type": "Tipo de Dispositivo", "ads_listened_per_week": "Anúncios por Semana",
     "offline_listening": "Uso Offline", "is_churned": "Cancelamento (Churn)",
