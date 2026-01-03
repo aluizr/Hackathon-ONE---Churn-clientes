@@ -90,7 +90,10 @@ O modelo selecionado foi a **Regressão Logística com balanceamento via SMOTE**
 ### Front-End
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="40" title="Vite"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" title="React"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" width="40" title="Tailwind CSS"/>&nbsp;
 </p>
+
 
 ### Back-End
 <p align="left">
