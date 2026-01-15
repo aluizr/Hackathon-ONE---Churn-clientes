@@ -54,11 +54,11 @@ A solução contempla um pipeline completo de Data Science:
 
 Os modelos de Machine Learning foram implementados utilizando **scikit-learn**, incluindo:
 
-- Regressão Logística  
-- Random Forest  
-- Gradient Boosting
+- **Regressão Logística**
+- **Random Forest**
+- **Gradient Boosting**
 
-O modelo selecionado foi a **Regressão Logística com balanceamento via SMOTE**, priorizando **Recall** como métrica principal. Embora apresente desempenho preditivo moderado **(Recall ≈ 0,50; AUC ≈ 0,50)**, o modelo mostrou-se estável sob validação **cruzada e bootstrap**, sendo confiável para uso operacional como ferramenta de triagem de risco.
+O modelo selecionado foi a **Regressão Logística** com balanceamento via **SMOTE**, priorizando **Recall** como métrica principal, pois oferece alta interpretabilidade via coeficientes e **SHAP**, permitindo identificar com clareza os fatores que impulsionam o churn (como idade e tempo de uso) para ações preventivas estratégicas.
 
 ---
 
@@ -147,7 +147,12 @@ O modelo selecionado foi a **Regressão Logística com balanceamento via SMOTE**
 ```json
 {
     "endpoint": "POST /predict",
-    "payload_entrada": {
+    "metadata": {
+        "model_name": "Spotify Churn Model",
+        "model_version": "1.0",
+        "api_standard": "RESTful"
+    },
+    "payload_input": {
         "gender": "Other",
         "age": 27,
         "country": "US",
@@ -164,21 +169,23 @@ O modelo selecionado foi a **Regressão Logística com balanceamento via SMOTE**
         "is_heavy_user": 1,
         "premium_no_offline": 0
     }
+}
+
 ```
 #### **Saída**
 
 ```json
 {
-        "prediction": "Vai Cancelar",
-        "probability": 0.5396,
-        "decision_threshold": 0.431019,
+        "prediction": "Não Vai Cancelar",
+        "probability": 0.2556,
+        "decision_threshold": 0.262755,
         "ai_diagnosis": {
             "primary_risk_factor": "Anúncios por Semana",
             "primary_retention_factor": "Uso Offline",
-            "suggested_action": "Priorizar oferta de retenção"
-    }
-}
+            "suggested_action": "Manter fluxo padrão"
+        }
 ```
+
 ---
 ## 👥 Equipe do Projeto – Hackathon ONE II
 
@@ -199,5 +206,5 @@ O modelo selecionado foi a **Regressão Logística com balanceamento via SMOTE**
 ---
 ## 🔄 Status do Projeto
 
-🚧 **MVP funcional em desenvolvimento**, evoluído durante o Hackathon ONE II.
+🚧 **MVP funcional em desenvolvimento**, evoluído durante o Hackathon ONE II (2026).
 
